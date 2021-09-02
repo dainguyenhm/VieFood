@@ -1,0 +1,68 @@
+.user .user-profile .row {
+    margin-bottom: 10px;
+}
+
+.user .user-profile .row .col-md-4 {
+    text-align: right;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.user .user-profile .row .col-md-8 .change-password {
+    float: right;
+    padding-top: 10px;
+}
+
+.list-category th {
+    text-align: center;
+}
+
+.list-category td span,
+.list-category td a {
+    font-size: 20px;
+    padding: 0px 3px;
+    color: #337ab7;
+}
+
+.list-category td span:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.list-category .edit-form {
+    display: none;
+}
+
+.create-form .line-item {
+    margin-top: 15px;
+}
+
+.create-form .line-item .col-md-2 {
+    text-align: right;
+    padding-right: 0px;
+}
+
+.create-form .line-item .col-md-2 label {
+    padding-top: 3px;
+}
+
+.dataTables_info {
+    display: none;
+}
+
+.table>thead>tr>th {
+    white-space: nowrap;
+}
+
+.table .post-content {
+    overflow: auto;
+    height: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+    .user .user-profile .row .col-md-4 {
+        text-align: left;
+        padding-right: 0px;
+        padding-top: 5px;
+    }
+}
